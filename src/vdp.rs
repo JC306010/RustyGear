@@ -1,6 +1,7 @@
 // Video Display Processor emulation
 // Implements the Sega Game Gear VDP register/port interface.
-// Rendering is deferred to a later task (Task 12).
+// Rendering is done through the scanline runner
+// Sprite ordering needs some improvement
 
 pub struct Vdp {
     pub vram: [u8; 0x4000],
