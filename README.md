@@ -1,4 +1,4 @@
-![RustGear Logo](resources/icon.png)
+![RustyGear Logo](resources/icon.png)
 
 # RustyGear
 
